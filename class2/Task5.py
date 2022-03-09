@@ -32,4 +32,5 @@ print(df)
 # df['col9'] = (df['col9'] * 30.48) / 100
 # print(df['col9'])
 
-
+# Państwa z 1 lotniskiem
+# print(pd.unique(df['col4']))
