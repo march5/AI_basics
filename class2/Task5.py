@@ -16,7 +16,7 @@ df = pd.read_csv('Data/airports.csv', names=['col1', 'col2', 'col3', 'col4', 'co
 print(df)
 
 # panstwa ostatnich 12 lotnisk
-# print(df['col4'].tail(12))
+# print(df['col4'].tail(12).unique())
 
 # print(df.loc[1])
 # print()
