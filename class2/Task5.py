@@ -33,4 +33,4 @@ print(df)
 # print(df['col9'])
 
 # Państwa z 1 lotniskiem
-# print(pd.unique(df['col4']))
+print(pd.unique(df['col4']))
