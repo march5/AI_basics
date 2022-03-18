@@ -13,7 +13,7 @@ x6=stats.norm(0,1).rvs(n)
 x7=stats.norm(0,1).rvs(n)
 x9=stats.norm(0,1).rvs(n)
 x10=stats.norm(0,1).rvs(n)
-X=np.stack((x1,x2, 2*x1, x4, 3*x1, x6, x7, -x7, x9, x9**2),1)
+X=np.stack((x1,x2, 2*x1, x4, 3*x1, x6, x7, -x7, x9, x9**2), 1)
 
 # drawing points
 df=pd.DataFrame(X)
@@ -41,5 +41,3 @@ sns.heatmap(corr, mask=mask, cmap=cmap, vmin=-1, vmax=1,
             linewidths=.5, cbar_kws={"shrink": .5}, ax=ax)
 plt.show()
 print(corr)
-
-
